@@ -1,0 +1,45 @@
+parameters:
+#    esolving_eschool_backend.example.class: Esolving\Eschool\BackendBundle\Example
+
+services:
+    admin.user:
+        class: Esolving\Eschool\BackendBundle\Admin\UserAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm , group: user, label: users }
+        arguments: [null, Esolving\Eschool\UserBundle\Entity\User, EsolvingEschoolBackendBundle:UserAdmin]
+        
+    admin.user_role:
+        class: Esolving\Eschool\BackendBundle\Admin\RoleAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm , group: user, label: roles }
+        arguments: [null, Esolving\Eschool\UserBundle\Entity\Role, EsolvingEschoolBackendBundle:RoleAdmin]
+
+    admin.type:
+        class: Esolving\Eschool\BackendBundle\Admin\TypeAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm , group: general, label: types } 
+        arguments: [null, Esolving\Eschool\CoreBundle\Entity\Type, EsolvingEschoolBackendBundle:TypeAdmin]  
+
+    admin.type.language:
+        class: Esolving\Eschool\BackendBundle\Admin\TypeLanguageAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm , group: general, label: languages } 
+        arguments: [null, Esolving\Eschool\CoreBundle\Entity\TypeLanguage, EsolvingEschoolBackendBundle:LanguageAdmin]  
+    
+    admin.room:
+        class: Esolving\Eschool\BackendBundle\Admin\RoomAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm , group: room, label: rooms } 
+        arguments: [null, Esolving\Eschool\RoomBundle\Entity\Room, EsolvingEschoolBackendBundle:RoomAdmin]
+        
+    admin.schedule:
+        class: Esolving\Eschool\BackendBundle\Admin\ScheduleAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm , group: room, label: schedules } 
+        arguments: [null, Esolving\Eschool\RoomBundle\Entity\Schedule, EsolvingEschoolBackendBundle:ScheduleAdmin]
+        
+#    admin.setting:
+#        class: Esolving\Eschool\BackendBundle\Admin\SettingAdmin
+#        tags:
+#            - { name: sonata.admin, manager_type: orm , group: setting, label: settings } 
+#        arguments: [null, Esolving\Eschool\CoreBundle\Entity\Setting, SonataAdminBundle:CRUD]  

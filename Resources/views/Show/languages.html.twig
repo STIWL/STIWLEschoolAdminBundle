@@ -1,0 +1,15 @@
+{% extends 'SonataAdminBundle:CRUD:base_show_field.html.twig' %}
+{#{% block field %}
+    
+        {{ value.0.description }}
+        
+{% endblock %}#}
+{% block field %}
+    {% if value %}
+        {% if field_description.hasAssociationAdmin and field_description.associationadmin.hasRoute('edit') and field_description.associationadmin.isGranted('EDIT') %}
+            <a href="{{ field_description.associationadmin.generateObjectUrl('edit', value.0) }}">{{ value.0.description|render_relation_element(field_description) }}</a>
+        {% else %}
+            {{ value|render_relation_element(field_description) }}
+        {% endif %}
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="EsolvingEschoolBackendBundle.en.xlf">
+        <body>
+            <trans-unit id="log_in">
+                <source>log_in</source>
+                <target>Iniciar sesión</target>
+            </trans-unit>
+            <trans-unit id="log_in_to_backend">
+                <source>log_in_to_backend</source>
+                <target>Iniciar sesión administrador</target>
+            </trans-unit>
+            <trans-unit id="code">
+                <source>code</source>
+                <target>Código</target>
+            </trans-unit>
+            <trans-unit id="password">
+                <source>password</source>
+                <target>Contraseña</target>
+            </trans-unit>
+            <trans-unit id="users">
+                <source>users</source>
+                <target>Usuarios</target>
+            </trans-unit>
+            <trans-unit id="roles">
+                <source>roles</source>
+                <target>Roles</target>
+            </trans-unit>
+            <trans-unit id="types">
+                <source>types</source>
+                <target>Tipos</target>
+            </trans-unit>
+            <trans-unit id="languages">
+                <source>languages</source>
+                <target>Lenguages</target>
+            </trans-unit>
+            <trans-unit id="general">
+                <source>general</source>
+                <target>General</target>
+            </trans-unit>
+            <trans-unit id="sex">
+                <source>sex</source>
+                <target>Sexo</target>
+            </trans-unit>
+            <trans-unit id="group_blod">
+                <source>group_blod</source>
+                <target>Grupo sanguíneo</target>
+            </trans-unit>
+            <trans-unit id="distrit">
+                <source>distrit</source>
+                <target>Distrito</target>
+            </trans-unit>
+            <trans-unit id="headquarter">
+                <source>headquarter</source>
+                <target>Sede</target>
+            </trans-unit>
+            <trans-unit id="section">
+                <source>section</source>
+                <target>Sección</target>
+            </trans-unit>
+            <trans-unit id="name">
+                <source>name</source>
+                <target>Nombre</target>
+            </trans-unit>
+            <trans-unit id="last_name">
+                <source>last_name</source>
+                <target>Apellido</target>
+            </trans-unit>
+            <trans-unit id="date_born">
+                <source>date_born</source>
+                <target>Fecha de nacimiento</target>
+            </trans-unit>
+            <trans-unit id="phone">
+                <source>phone</source>
+                <target>Telefono</target>
+            </trans-unit>
+            <trans-unit id="phone_movil">
+                <source>phone_movil</source>
+                <target>Telefono movil</target>
+            </trans-unit>
+            <trans-unit id="email">
+                <source>email</source>
+                <target>Correo electrónico</target>
+            </trans-unit>
+            <trans-unit id="address">
+                <source>address</source>
+                <target>Dirección</target>
+            </trans-unit>
+            <trans-unit id="status">
+                <source>status</source>
+                <target>Estado</target>
+            </trans-unit>
+            <trans-unit id="category">
+                <source>category</source>
+                <target>Categoría</target>
+            </trans-unit>
+            <trans-unit id="language">
+                <source>language</source>
+                <target>Lenguage</target>
+            </trans-unit>
+            <trans-unit id="description">
+                <source>description</source>
+                <target>Descripción</target>
+            </trans-unit>
+            <trans-unit id="type">
+                <source>type</source>
+                <target>Tipo</target>
+            </trans-unit>
+            <trans-unit id="actions">
+                <source>actions</source>
+                <target>Acciones</target>
+            </trans-unit>
+            <trans-unit id="date_registered">
+                <source>date_registered</source>
+                <target>Fecha registrado</target>
+            </trans-unit>
+            <trans-unit id="date_modificated">
+                <source>date_modificated</source>
+                <target>Fecha modificado</target>
+            </trans-unit>
+            <trans-unit id="date_disabled">
+                <source>date_disabled</source>
+                <target>Fecha estado modificado</target>
+            </trans-unit>
+            <trans-unit id="Bad credentials">
+                <source>Bad credentials</source>
+                <target>Credencales incorrectas</target>
+            </trans-unit>
+            <trans-unit id="settings">
+                <source>settings</source>
+                <target>Configuraciones</target>
+            </trans-unit>
+            <trans-unit id="rooms">
+                <source>rooms</source>
+                <target>Salones</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
